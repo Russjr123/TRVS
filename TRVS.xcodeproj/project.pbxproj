@@ -11,7 +11,8 @@
 		604B2351298D952A00D44797 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604B2350298D952A00D44797 /* ContentView.swift */; };
 		604B2353298D952B00D44797 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 604B2352298D952B00D44797 /* Assets.xcassets */; };
 		604B2356298D952B00D44797 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 604B2355298D952B00D44797 /* Preview Assets.xcassets */; };
-		604B236129915B7300D44797 /* BigCaslon in Resources */ = {isa = PBXBuildFile; fileRef = 604B236029915B7300D44797 /* BigCaslon */; };
+		D99E4AED2991977E00C527EE /* Big Caslon Medium in Resources */ = {isa = PBXBuildFile; fileRef = D99E4AEC2991977E00C527EE /* Big Caslon Medium */; };
+		D99E4AEF2991982600C527EE /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99E4AEE2991982600C527EE /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,8 +21,9 @@
 		604B2350298D952A00D44797 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		604B2352298D952B00D44797 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		604B2355298D952B00D44797 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		604B236029915B7300D44797 /* BigCaslon */ = {isa = PBXFileReference; lastKnownFileType = folder; name = BigCaslon; path = ../../../Downloads/BigCaslon; sourceTree = "<group>"; };
 		604B23622991859600D44797 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D99E4AEC2991977E00C527EE /* Big Caslon Medium */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Big Caslon Medium"; path = "../../../Downloads/Big Caslon Medium"; sourceTree = "<group>"; };
+		D99E4AEE2991982600C527EE /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,8 @@
 				604B23622991859600D44797 /* Info.plist */,
 				604B234E298D952A00D44797 /* TRVSApp.swift */,
 				604B2350298D952A00D44797 /* ContentView.swift */,
-				604B236029915B7300D44797 /* BigCaslon */,
+				D99E4AEE2991982600C527EE /* MapView.swift */,
+				D99E4AEC2991977E00C527EE /* Big Caslon Medium */,
 				604B2352298D952B00D44797 /* Assets.xcassets */,
 				604B2354298D952B00D44797 /* Preview Content */,
 			);
@@ -130,8 +133,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D99E4AED2991977E00C527EE /* Big Caslon Medium in Resources */,
 				604B2356298D952B00D44797 /* Preview Assets.xcassets in Resources */,
-				604B236129915B7300D44797 /* BigCaslon in Resources */,
 				604B2353298D952B00D44797 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				604B2351298D952A00D44797 /* ContentView.swift in Sources */,
+				D99E4AEF2991982600C527EE /* MapView.swift in Sources */,
 				604B234F298D952A00D44797 /* TRVSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
